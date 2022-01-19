@@ -16,7 +16,7 @@ const Modal = (props) => {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse possimus alias temporibus repellat quis, est dignissimos numquam sunt hic minima voluptate! Repellat iusto, ipsum ad rem nemo eaque quia.
         </p>
         <div className='container__closeButton'>
-            <button onClick={props.hide} className='closeButton'>Fermer</button>
+            <button onClick={props.hide} className='closeButton'>Close</button>
         </div>
         </div>
     );
