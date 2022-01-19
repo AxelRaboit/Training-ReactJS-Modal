@@ -10,13 +10,14 @@ const Modal = (props) => {
             transform: props.visible ? 'translateY(0vh)' : 'translateY(-100vh)',
             opacity: props.visible ? '1' : '0'
         }}>
-            <div className='container__closeButton'>
-                <button onClick={props.hide} className='closeButton'>X</button>
-            </div>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse possimus alias temporibus repellat quis, est dignissimos numquam sunt hic minima voluptate! Repellat iusto, ipsum ad rem nemo eaque quia.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse possimus alias temporibus repellat quis, est dignissimos numquam sunt hic minima voluptate! Repellat iusto, ipsum ad rem nemo eaque quia.
-            </p>
+        <p>
+        <h2>Popup message</h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse possimus alias temporibus repellat quis, est dignissimos numquam sunt hic minima voluptate! Repellat iusto, ipsum ad rem nemo eaque quia.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse possimus alias temporibus repellat quis, est dignissimos numquam sunt hic minima voluptate! Repellat iusto, ipsum ad rem nemo eaque quia.
+        </p>
+        <div className='container__closeButton'>
+            <button onClick={props.hide} className='closeButton'>Fermer</button>
+        </div>
         </div>
     );
 }
